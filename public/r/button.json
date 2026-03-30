@@ -1,0 +1,14 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "button",
+  "type": "registry:ui",
+  "title": "Button",
+  "description": "A generic button component with variants, sizes, and loading state.",
+  "files": [
+    {
+      "path": "registry/custom-components/ui/button.tsx",
+      "content": "import * as React from \"react\"\n\nfunction Button({\n  ...props\n}: React.ComponentProps<\"button\">) {\n  return (\n    <button {...props} />\n  )\n}\n\nexport { Button }\n",
+      "type": "registry:component"
+    }
+  ]
+}
